@@ -13,6 +13,15 @@ This page keeps records of all previous participants.
 |L.|Wang|
 I add this line from vs code under branch lw3
 
+I add this line from vs code under branch of master_lw by using the follows bash commands:
+
+```bash
+git add participants.md
+git commit -m "bylw_4branch_master_lw"
+git push
+```
+
+
 # Example
 |First name|Last name|
 |----------|---------|
