@@ -11,6 +11,7 @@ This page keeps records of all previous participants.
 |J.|Liao|
 |X.|Wei|
 |L.|Wang|
+I add this line from vs code under branch lw3
 
 # Example
 |First name|Last name|
