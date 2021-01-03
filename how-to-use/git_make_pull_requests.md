@@ -75,7 +75,7 @@ git rebase upstream/master master
 
 # How do I update a GitHub forked repository?
 ```bash
-# Add the remote, call it "upstream":
+# Add the remote, call it "upstream", e.g.,:
 git remote add upstream https://github.com/whoever/whatever.git
 
 # Fetch all the branches of that remote into remote-tracking branches
@@ -88,4 +88,8 @@ git checkout master
 # aren't already in upstream/master are replayed on top of that
 # other branch:
 git rebase upstream/master
+
+# after rebased your branch onto upstream/master, force the push 
+# in order to push it to your own forked repository on GitHub. 
+git push -f origin master
 ```
